@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Lugares</string>
+    <string name="tv_Correo">Correo</string>
+    <string name="tv_Clave">Clave</string>
 </resources>
