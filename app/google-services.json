@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "558941222296",
+    "project_id": "demolug-11144",
+    "storage_bucket": "demolug-11144.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558941222296:android:cfb7300edc137aa38927ed",
+        "android_client_info": {
+          "package_name": "com.lugares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558941222296-4tjtpe13qdapdmhcl9i6qmrjnr5cid1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyALMPL41-uyM3RFguVmDMofg7Gvlp4R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558941222296-4tjtpe13qdapdmhcl9i6qmrjnr5cid1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

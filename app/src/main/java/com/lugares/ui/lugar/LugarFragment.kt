@@ -34,6 +34,16 @@ class LugarFragment : Fragment() {
         return binding.root
     }
 
+    val lugarAdapter=LugarAdapter()
+    val reciclador = binding.reciclador
+    reciclador.adapter = lugarAdapter
+    reciclador.layoutManager = LinearLayoutManager(requireContext())
+    lugarViewModel = ViewModelProvider(this)[LugarViewModel::class.java]
+    lugarViewModel.getAllData.observe(viewLifecycleOwner) { lugares ->
+        lugarAdapter.setData(lugares)
+    }
+
+
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
